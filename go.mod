@@ -1,4 +1,4 @@
-module reactive-kafka-boilerplate
+module github.com/MHunterG/rxgo-kafka-boilerplate
 
 go 1.17
 

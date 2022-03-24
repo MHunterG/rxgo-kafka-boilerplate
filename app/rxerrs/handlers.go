@@ -1,8 +1,8 @@
 package rxerrs
 
 import (
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/events"
 	log "github.com/sirupsen/logrus"
-	"reactive-kafka-boilerplate/app/events"
 )
 
 type App interface {

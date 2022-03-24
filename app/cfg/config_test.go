@@ -1,8 +1,8 @@
 package cfg_test
 
 import (
+	cfg3 "github.com/MHunterG/rxgo-kafka-boilerplate/app/cfg"
 	"github.com/stretchr/testify/assert"
-	cfg3 "reactive-kafka-boilerplate/app/cfg"
 	"testing"
 )
 

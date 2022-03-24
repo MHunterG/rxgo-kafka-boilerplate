@@ -1,8 +1,8 @@
 package app
 
 import (
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/cfg"
 	"github.com/stretchr/testify/assert"
-	"reactive-kafka-boilerplate/app/cfg"
 	"testing"
 )
 

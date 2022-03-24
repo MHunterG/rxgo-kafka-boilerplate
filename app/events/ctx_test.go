@@ -2,9 +2,9 @@ package events_test
 
 import (
 	"context"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/events"
 	"github.com/segmentio/kafka-go"
 	"github.com/stretchr/testify/assert"
-	"reactive-kafka-boilerplate/app/events"
 	"testing"
 )
 

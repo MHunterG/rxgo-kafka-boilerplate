@@ -3,13 +3,13 @@ package app
 import (
 	"context"
 	"fmt"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/cfg"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/events"
 	"github.com/reactivex/rxgo/v2"
 	"github.com/segmentio/kafka-go"
 	log "github.com/sirupsen/logrus"
 	"os"
 	"os/signal"
-	"reactive-kafka-boilerplate/app/cfg"
-	"reactive-kafka-boilerplate/app/events"
 	"syscall"
 )
 

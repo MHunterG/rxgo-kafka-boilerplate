@@ -2,11 +2,11 @@ package app
 
 import (
 	"context"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/cfg"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/events"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/rxerrs"
 	"github.com/reactivex/rxgo/v2"
 	"github.com/segmentio/kafka-go"
-	"reactive-kafka-boilerplate/app/cfg"
-	"reactive-kafka-boilerplate/app/events"
-	"reactive-kafka-boilerplate/app/rxerrs"
 )
 
 func (app *Instance) SendErrorEvent(eventName string, value []byte) error {

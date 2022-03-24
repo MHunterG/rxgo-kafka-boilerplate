@@ -2,9 +2,9 @@ package rxerrs_test
 
 import (
 	"errors"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/events"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/rxerrs"
 	"github.com/stretchr/testify/assert"
-	"reactive-kafka-boilerplate/app/events"
-	"reactive-kafka-boilerplate/app/rxerrs"
 	"testing"
 )
 

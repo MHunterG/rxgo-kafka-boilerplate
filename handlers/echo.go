@@ -2,10 +2,10 @@ package handlers
 
 import (
 	"context"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/cfg"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/events"
 	"github.com/segmentio/kafka-go"
-	"reactive-kafka-boilerplate/app"
-	"reactive-kafka-boilerplate/app/cfg"
-	"reactive-kafka-boilerplate/app/events"
 )
 
 type EchoContainer struct {

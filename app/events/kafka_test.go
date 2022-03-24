@@ -1,8 +1,8 @@
 package events_test
 
 import (
-	"reactive-kafka-boilerplate/app/cfg"
-	"reactive-kafka-boilerplate/app/events"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/cfg"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/events"
 	"testing"
 )
 

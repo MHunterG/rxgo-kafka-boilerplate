@@ -1,6 +1,6 @@
 package app
 
-import "reactive-kafka-boilerplate/app/events"
+import "github.com/MHunterG/rxgo-kafka-boilerplate/app/events"
 
 type Container interface {
 	Destroy()

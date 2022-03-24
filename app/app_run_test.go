@@ -1,10 +1,10 @@
 package app_test
 
 import (
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/cfg"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/handlers"
 	"github.com/stretchr/testify/assert"
-	"reactive-kafka-boilerplate/app"
-	"reactive-kafka-boilerplate/app/cfg"
-	"reactive-kafka-boilerplate/handlers"
 	"testing"
 	"time"
 )

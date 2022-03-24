@@ -1,10 +1,10 @@
 package main
 
 import (
-	"reactive-kafka-boilerplate/app"
-	"reactive-kafka-boilerplate/app/cfg"
-	"reactive-kafka-boilerplate/handlers"
-	"reactive-kafka-boilerplate/logs"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/cfg"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/handlers"
+	"github.com/MHunterG/rxgo-kafka-boilerplate/logs"
 )
 
 func main() {

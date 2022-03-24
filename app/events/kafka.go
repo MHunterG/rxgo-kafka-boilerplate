@@ -1,8 +1,8 @@
 package events
 
 import (
+	"github.com/MHunterG/rxgo-kafka-boilerplate/app/cfg"
 	"github.com/segmentio/kafka-go"
-	"reactive-kafka-boilerplate/app/cfg"
 	"sync"
 	"time"
 )
